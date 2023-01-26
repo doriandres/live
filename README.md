@@ -10,7 +10,7 @@ const person = { name: "" }; // this will be the object we want to keep updated
 const human = { givenName: "" }; // this will be the object we want to keep updated
 
 Bind.for(person, "name", name); // bind 'person' object 'name' property to live value
-Bind.for(human, "givenName", name); // bind 'human' object 'name' property to live value
+Bind.for(human, "givenName", name); // bind 'human' object 'givenName' property to live value
 
 console.log(person.name);  // Mark
 console.log(human.givenName);  // Mark
